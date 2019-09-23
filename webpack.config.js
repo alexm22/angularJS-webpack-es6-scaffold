@@ -13,8 +13,6 @@ module.exports = ({ mode, presets } = { mode: 'production', presets: [] }) => {
       mode,
       // set entry point of app
       entry: path.resolve('./src/app/app.module.js'),
-      // set dist output file
-
       // create HTML file based on template
       plugins: [
         new HTMLWebpackPlugin({
